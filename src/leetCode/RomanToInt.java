@@ -28,9 +28,7 @@ public class RomanToInt {
 
             if (currentValue < preValue) {
                 acct -= currentValue;
-            }
-
-            if (currentValue >= preValue) {
+            } else {
                 acct += currentValue;
             }
 
