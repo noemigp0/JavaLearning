@@ -6,5 +6,8 @@ public class Main {
         System.out.println("Cat");
         System.out.println("Dog");
         System.out.println("Rabbit");
+
+
+
     }
 }
