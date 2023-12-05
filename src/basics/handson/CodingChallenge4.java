@@ -1,13 +1,13 @@
-package basics.unit1_fundamentals.exercises;
+package basics.handson;
 
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class ConditionalsExercise {
+public class CodingChallenge4 {
 
     public static void main(String args[]){
 
-        ConditionalsExercise conditionalsExercise = new ConditionalsExercise();
+        CodingChallenge4 conditionalsExercise = new CodingChallenge4();
         //conditionalsExercise.simpleComparisonNumbers();
         conditionalsExercise.randomNumberGame();
     }

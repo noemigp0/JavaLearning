@@ -1,4 +1,4 @@
-package basics.unit1_handson;
+package basics.handson;
 
 import java.util.Scanner;
 

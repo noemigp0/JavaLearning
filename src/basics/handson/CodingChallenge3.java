@@ -1,8 +1,8 @@
-package basics.unit1_fundamentals.exercises;
+package basics.handson;
 
 import java.util.Scanner;
 
-public class ScannerExercise {
+public class CodingChallenge3 {
     public static void main (String args[]){
         System.out.println("What is your name?");
         Scanner scanner = new Scanner(System.in);

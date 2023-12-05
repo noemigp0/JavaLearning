@@ -1,4 +1,4 @@
-package basics.unit1_fundamentals;
+package basics.fundamentals;
 
 public class Main {
     public static void main(String[] args) {

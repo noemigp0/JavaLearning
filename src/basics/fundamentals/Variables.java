@@ -1,4 +1,4 @@
-package basics;
+package basics.fundamentals;
 
 public class Variables {
     public static void main (String argss[]){
