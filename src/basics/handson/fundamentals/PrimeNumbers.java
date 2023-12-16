@@ -1,4 +1,4 @@
-package basics.handson;
+package basics.handson.fundamentals;
 
 public class PrimeNumbers {
     //Write a program which print all the prime numbers from 1 to 1000

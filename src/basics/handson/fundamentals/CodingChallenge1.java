@@ -1,4 +1,4 @@
-package basics.handson;
+package basics.handson.fundamentals;
 
 public class CodingChallenge1 {
     public static void main(String args[]){
