@@ -23,13 +23,15 @@ public class TwoSum {
     * */
     public static void main (String args[]){
         //int[] nums = new int[]{2,7,11,15};
-        //int target = 9;
+        //int target = 9; //result [0,1]
         //int[] nums = new int[]{3,3};
-        //int target = 6;
+        //int target = 6; //result [0,1]
         //int[] nums = new int[]{3,2,4};
+        //int target = 6; //result[1,2]
+        //int[] nums = new int[]{3,2,3};
         //int target = 6;
-        int[] nums = new int[]{3,2,3};
-        int target = 6;
+        int[] nums = new int[]{2,4,11,3};
+        int target = 6;  //result [0,1]
 
         int[] results = twoSum(nums, target);
 
@@ -47,16 +49,21 @@ public class TwoSum {
 
     public static int[] twoSum(int[] nums, int target){
         int [] results = new int[2];
+        //boolean isResultFound = false;
 
 
         for ( int i = 0; i < nums.length; i++){
             for(int j = nums.length -1; j >= 0; j--){
-                if(nums[i] + nums[j] == target){
+                if(nums[i] + nums[j] == target && j != i){
                     results[0] = i;
                     results[1] = j;
+                    //isResultFound = true;
+
                 }
 
+
             }
+            //if (isResultFound) break;
 
         }
 
