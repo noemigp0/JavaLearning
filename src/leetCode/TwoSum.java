@@ -55,9 +55,7 @@ public class TwoSum {
         for ( int i = 0; i < nums.length; i++){
             for(int j = nums.length -1; j >= 0; j--){
                 if(nums[i] + nums[j] == target && j != i){
-                    results[0] = i;
-                    results[1] = j;
-                    //isResultFound = true;
+                    return new int[]{i,j}; //This line is also acceptable
 
                 }
 
