@@ -13,44 +13,24 @@ public class RemoveDuplicates {
 
     public static void main(String args[]) {
 
-        int[] array = removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4});
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
+        int total= removeDuplicates(new int[]{1,1,2});
+
 
 
     }
 
-    static int[] removeDuplicates(int[] nums) {
-        int[] newNums = new int[nums.length];
-        int index = 0;
+    static int removeDuplicates(int[] nums) {
 
-        for (int i = 0; i < nums.length; i++) {
-            boolean isRepeteaded = false;
-            for (int j = 0; j < newNums.length; j++) {
-
-
-
-
-                if (nums[i] == newNums[j]) {
-
-                    isRepeteaded = true;
-                    break;
-
-                }
-
+        int j = 1;
+        for( int i = 1; i < nums.length; i++){
+            if ( nums[i] != nums[ i -1]){
+                nums[j] = nums[i];
+                System.out.println(nums[j]);
+                j++;
             }
-            if(!isRepeteaded){
-
-                newNums[index] = nums[i];
-                index++;
-
-            }
-
-
-
 
         }
-        return newNums;
+
+        return j;
     }
 }
